@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+#sketch-area {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px auto;
+  background-color: white;
+  box-shadow: 10px 10px rgb(123, 132, 155, 0.034);
+}
+
+.cell {
+  border: 1px solid whitesmoke;
+}
